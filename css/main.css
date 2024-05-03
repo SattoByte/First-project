@@ -15,11 +15,13 @@ body {
 }
 
 #wrapper {
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
     margin: 10px 50px 10px 50px;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 11px;
 
 }
 
@@ -75,12 +77,8 @@ ul {
 }
 
 ul a:hover {
-    font-weight: 600;
-    background-color: #ffffff;
-    padding: 5px;
-    color: #4a2409;
-    border-radius: 3px;
-    text-shadow: 1px 1px 3px #6B350E;
+    text-decoration: underline;
+    color: #fab686;
 
 }
 
@@ -117,7 +115,6 @@ main h1 {
     letter-spacing: 1px;
     font-weight: 900;
     margin: 0;
-    text-shadow: 1px 1px 3px #4a2409;
 }
 
 main .open-time {
@@ -235,7 +232,7 @@ div .menu {
     justify-content: space-around;
     font-size: 36px;
     color: #fff;
-    margin-bottom: 40px;
+    margin: 30px;
 }
 
 .menu h3 {
@@ -292,6 +289,12 @@ footer p {
     flex-direction: row;
     justify-content: center;
     
+}
+
+.icon img {
+    margin-right: 5px;
+    margin-left: 5px;
+
 }
 
 div .copy-right {
