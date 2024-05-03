@@ -370,7 +370,6 @@ div .copy-right {
     }
     div .one, div .two {
         width: 90%;
-        border: 1px solid red;
     }
 
     .features img {
@@ -398,19 +397,18 @@ div .copy-right {
     }
 
     header {
-        margin: 0;
+        /* margin: 0;
+        border-radius: 0;
+        border: 0; */
+        position: relative;
+        padding-top: 10px;
         border-radius: 0;
         border: 0;
+        text-align: center;
     }
-
-
-
-     .logo {
-        position: relative;
-        left: 30%;
-        top: 3%;
+    div .logo {
+    margin: 0;
     }
-
 
     ul {
         float: none;
@@ -424,7 +422,7 @@ div .copy-right {
     }
 
     header h1 {
-        margin-top: 10px;
+        margin-top: 20%;
 
     }
 
